@@ -6,6 +6,9 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
 module.exports = {
   solidity: "0.8.9",
+  etherscan: {
+    apiKey: "49SS25GHWCUGTUYR5MQMCS6DJFMCSH7MQB",
+  },
   networks: {
     goerli: {
       url: QUICKNODE_HTTP_URL,
